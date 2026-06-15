@@ -5,7 +5,7 @@
     "timeout": 30
   },
   "aihub": {
-    "api_key": "5517C840-501D-4609-9595-259E35684E91",
+    "api_key": "YOUR_AIHUB_API_KEY_HERE",
     "dataset_sn": 103,
     "samples_per_word": 50,
     "max_retries": 3,
