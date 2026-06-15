@@ -1,0 +1,56 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "exaone3.5",
+    "timeout": 30
+  },
+  "aihub": {
+    "api_key": "5517C840-501D-4609-9595-259E35684E91",
+    "dataset_sn": 103,
+    "samples_per_word": 50,
+    "max_retries": 3,
+    "retry_delay": 2.0,
+    "timeout": 60
+  },
+  "claude": {
+    "api_key": "YOUR_CLAUDE_API_KEY_HERE",
+    "model": "claude-sonnet-4-6",
+    "max_tokens": 1024,
+    "temperature": 0.3
+  },
+  "camera": {
+    "index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30
+  },
+  "app": {
+    "default_mode": "카페",
+    "language": "ko",
+    "theme": "dark"
+  },
+  "tts": {
+    "engine": "pyttsx3",
+    "rate": 150,
+    "volume": 1.0,
+    "voice_language": "ko"
+  },
+  "db": {
+    "path": "db/conversation_history.db"
+  },
+  "gesture": {
+    "model_path": "models/gesture_model.pkl",
+    "confidence_threshold": 0.35,
+    "hold_frames": 10
+  },
+  "mediapipe": {
+    "max_hands": 2,
+    "detection_confidence": 0.7,
+    "tracking_confidence": 0.5
+  },
+  "stt": {
+    "model": "base",
+    "language": "ko",
+    "enabled": true
+  }
+}
